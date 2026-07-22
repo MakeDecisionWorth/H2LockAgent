@@ -1,0 +1,33 @@
+# Maven
+target/
+dependency-reduced-pom.xml
+.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Java
+*.class
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+hs_err_pid*
+replay_pid*
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.project
+.classpath
+.settings/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# H2 runtime artifacts (in case of local testing)
+*.mv.db
+*.trace.db
+*.lock.db

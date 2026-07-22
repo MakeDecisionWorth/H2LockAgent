@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Created-By: Maven JAR Plugin 3.5.0
+Java-Version: 17
+Build-Jdk-Spec: 26
+Agent-Class: net.tokasen.h2lock.H2LockAgent
+Can-Redefine-Classes: true
+Can-Retransform-Classes: true
+Multi-Release: true
+Premain-Class: net.tokasen.h2lock.H2LockAgent
+
